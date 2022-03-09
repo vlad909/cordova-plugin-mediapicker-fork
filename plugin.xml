@@ -22,6 +22,7 @@
     <source-file src="src/android/FileHelper.java" target-dir="src/com/dmc/mediaPickerPlugin"/>
     <resource-file src="src/android/Library/res/values-tr/multiimagechooser_strings_tr.xml" target="res/values-tr/multiimagechooser_strings_tr.xml"/>
     <resource-file src="src/android/Library/res/values-de/multiimagechooser_strings_de.xml" target="res/values-de/multiimagechooser_strings_de.xml"/>
+    <resource-file src="src/android/Library/res/values-ru/multiimagechooser_strings_ru.xml" target="res/values-ru/multiimagechooser_strings_ru.xml"/>
   </platform>
 
   <platform name="ios">
@@ -38,14 +39,14 @@
     <header-file src="src/ios/DMCMediaPicker/PreviewCell.h" />
     <source-file src="src/ios/DMCMediaPicker/PreviewCell.m"/>
     <header-file src="src/ios/DMCMediaPicker/PreviewViewController.h" />
-    <source-file src="src/ios/DMCMediaPicker/PreviewViewController.m"/>  
+    <source-file src="src/ios/DMCMediaPicker/PreviewViewController.m"/>
     <header-file src="src/ios/DMCMediaPicker/AlbumListView.h" />
-    <source-file src="src/ios/DMCMediaPicker/AlbumListView.m"/>  
+    <source-file src="src/ios/DMCMediaPicker/AlbumListView.m"/>
 
     <header-file src="src/ios/DMCMediaPicker/FLAnimatedImage/FLAnimatedImage.h" />
-    <source-file src="src/ios/DMCMediaPicker/FLAnimatedImage/FLAnimatedImage.m"/>   
+    <source-file src="src/ios/DMCMediaPicker/FLAnimatedImage/FLAnimatedImage.m"/>
     <header-file src="src/ios/DMCMediaPicker/FLAnimatedImage/FLAnimatedImageView.h" />
-    <source-file src="src/ios/DMCMediaPicker/FLAnimatedImage/FLAnimatedImageView.m"/>         
+    <source-file src="src/ios/DMCMediaPicker/FLAnimatedImage/FLAnimatedImageView.m"/>
 
     <resource-file src="src/ios/DMCMediaPicker/dmcPicker.bundle"/>
     <resource-file src="src/ios/DMCMediaPicker/en.lproj"/>
@@ -57,6 +58,6 @@
     <resource-file src="src/ios/DMCMediaPicker/de.lproj"/>
     <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
       <string>$IOS_PHOTO_LIBRARY_USAGE_DESCRIPTION</string>
-    </config-file>  
+    </config-file>
   </platform>
 </plugin>
