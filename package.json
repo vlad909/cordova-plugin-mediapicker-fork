@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-mediapicker-dmcsdk",
-  "version": "2.4.7",
+  "name": "@itadori/cordova-plugin-mediapicker-dmcsdk",
+  "version": "2.4.8",
   "description": "android ios mediaPicker support selection of multiple image and video",
   "cordova": {
     "id": "cordova-plugin-mediapicker-dmcsdk",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DmcSDK/cordova-plugin-mediaPicker.git"
+    "url": "git+https://github.com/vlad909/cordova-plugin-mediapicker-fork"
   },
   "keywords": [
     "cordova",
@@ -31,9 +31,13 @@
     "compress image"
   ],
   "author": "DmcSDK",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DmcSDK/cordova-plugin-mediaPicker/issues"
   },
-  "homepage": "https://github.com/DmcSDK"
+  "homepage": "https://github.com/DmcSDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
