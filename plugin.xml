@@ -56,6 +56,7 @@
     <resource-file src="src/ios/DMCMediaPicker/pt-PT.lproj"/>
     <resource-file src="src/ios/DMCMediaPicker/tr.lproj"/>
     <resource-file src="src/ios/DMCMediaPicker/de.lproj"/>
+    <resource-file src="src/ios/DMCMediaPicker/ru.lproj"/>
     <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
       <string>$IOS_PHOTO_LIBRARY_USAGE_DESCRIPTION</string>
     </config-file>
