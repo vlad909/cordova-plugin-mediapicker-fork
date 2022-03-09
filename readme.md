@@ -4,7 +4,7 @@ android ios mediaPicker support  selection of multiple image and video gif  (Sup
 
 android 和 ios cordova图片视频选择插件，支持多图 视频 gif，ui类似微信。 联系QQ：3451927565</br>
 
-[GitHub:](https://github.com/DmcSDK/cordova-plugin-mediaPicker) https://github.com/DmcSDK/cordova-plugin-mediaPicker</br>
+[GitHub:](https://github.com/DmcSDK/cordova-plugin-mediaPicker) https://github.com/vlad909/cordova-plugin-mediapicker-fork.git</br>
 
 怎么用？How do I use?
 -------------------
@@ -12,7 +12,7 @@ android 和 ios cordova图片视频选择插件，支持多图 视频 gif，ui�
 use npm OR github:
 
 ```
-  cordova plugin add https://github.com/DmcSDK/cordova-plugin-mediaPicker.git --variable IOS_PHOTO_LIBRARY_USAGE_DESCRIPTION="your usage message"
+  cordova plugin add https://github.com/vlad909/cordova-plugin-mediapicker-fork.git --variable IOS_PHOTO_LIBRARY_USAGE_DESCRIPTION="access to photo and video"
 ```
 
 ## Example
