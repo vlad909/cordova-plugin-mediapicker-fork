@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="library_name">MediaPicker</string>
-    <string name="all_dir_name">Alle Bilder und Videos</string>
+    <string name="all_dir_name">Все фото и видео</string>
     <string name="all_video">Все видео</string>
     <string name="all_image">Все фото</string>
-    <string name="select_title">Выбрать фото и видео</string>
+    <string name="select_title">Выбрать фото или видео</string>
     <string name="select_video_title">Выбрать видео</string>
     <string name="select_image_title">Выбрать фото</string>
     <string name="video_dir_name">Все видео</string>
